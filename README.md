@@ -6,4 +6,4 @@ STEP 1:
 Write the C program that counts the sum of numbers from 1 to n in the Leafpad editor(open source graphical text editor) and save the code.
 ![code](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/d5af9602-97e7-4516-8395-c12af510e131)
 Compile the code using GCC editor and ouput is generated using "./a.out" command.
-
+![VirtualBox_vsdworkshop_23_06_2024_23_22_19](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/4025d860-66c0-4584-8072-3ee1d7a0e023)
