@@ -24,6 +24,10 @@ where lp is the long point integer of 64 bit
 
 ![command](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/f44df7ea-9a57-4b8f-b7b9-4009d214ada4)
 
+STEP 3:
+Now we can see that the address of the main section is 10184 but the quick way to find the number of instructions are by using a hexadecimal calculater and subracting the address numbers of the left most ends and dividing the result by 4, since each consecutive address value varies by 4.
+
+
 Now this will provide the output. Then go to another tab to check the assembly code for the given C program and the command is as follows
 
         riscv64-unknown-elf-objdump -d sum1ton.o
