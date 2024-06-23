@@ -27,6 +27,12 @@ where lp is the long point integer of 64 bit
 Now this will provide the output. Then go to another tab to check the assembly code for the given C program and the command is as follows
 
         riscv64-unknown-elf-objdump -d sum1ton.o
+Then open the output with the less editor, with the command
+        
+         riscv64-unknown-elf-objdump -d sum1ton.o | less
+To check the output of the main section use command /main
+
+         
 
 
 
