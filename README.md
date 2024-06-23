@@ -9,7 +9,7 @@ Compile the code using GCC editor and ouput is generated using "./a.out" command
 ![VirtualBox_vsdworkshop_23_06_2024_23_22_19](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/4025d860-66c0-4584-8072-3ee1d7a0e023)
 The sum of the numbers from 1 to 5 is 15 abd it is obtained successfully.
 
-The next step is to convert the C code according to RISC-V tool instruction set we have seperate steps which are as follows,
+The next step is to convert the C code according to RISC-V tool instruction set we have seperate steps which are as follows.
 STEP 2:
 Now to run the same program which counts the sum from 1 to n is run through RISC-V by the following command:
         riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
