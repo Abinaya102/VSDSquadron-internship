@@ -44,6 +44,8 @@ In the previous case we used -O1 as the optional condition to compile the code w
 
         riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 Now on obtaing the output of the main section we get,
+![WhatsApp Image 2024-06-24 at 1 53 17 AM](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/66aee74e-18db-42ff-bf17-6f653b467fda)
+
 
                
 
