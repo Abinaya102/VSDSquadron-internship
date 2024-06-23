@@ -10,9 +10,12 @@ Compile the code using GCC editor and ouput is generated using "./a.out" command
 The sum of the numbers from 1 to 5 is 15 abd it is obtained successfully.
 
 The next step is to convert the C code according to RISC-V tool instruction set we have seperate steps which are as follows.
+
 STEP 2:
 Now to run the same program which counts the sum from 1 to n is run through RISC-V by the following command:
+
         riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+        
 where lp is the long point integer of 64 bit
      -O1 is the options to compile the code using gcc compiler
      march is the architecture type
