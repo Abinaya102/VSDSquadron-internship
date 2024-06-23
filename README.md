@@ -21,6 +21,9 @@ where lp is the long point integer of 64 bit
      march is the architecture type
      -o is the output file
      rv64 is the RISC-V of 64 bit
+
+![command](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/f44df7ea-9a57-4b8f-b7b9-4009d214ada4)
+
      
 
 
