@@ -36,6 +36,9 @@ To check the output of the main section use command /main
 
 Now we can see that the address of the main section is 10184 but the quick way to find the number of instructions are by using a hexadecimal calculater and subracting the address numbers of the left most ends and dividing the result by 4, since each consecutive address value varies by 4.
 
+![WhatsApp Image 2024-06-24 at 1 43 32 AM](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/f3b985b6-4950-472b-b9b8-5db032e5ddd3)
+
+
 
          
 
