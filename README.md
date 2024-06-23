@@ -31,6 +31,7 @@ Then open the output with the less editor, with the command
         
          riscv64-unknown-elf-objdump -d sum1ton.o | less
 To check the output of the main section use command /main
+![main](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/6fc70654-16fb-4422-8ef2-96cdd0cb30bc)
 
          
 
