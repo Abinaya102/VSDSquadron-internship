@@ -7,7 +7,7 @@ Write the C program that counts the sum of numbers from 1 to n in the Leafpad ed
 ![code](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/d5af9602-97e7-4516-8395-c12af510e131)
 Compile the code using GCC editor and ouput is generated using "./a.out" command.
 ![VirtualBox_vsdworkshop_23_06_2024_23_22_19](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/4025d860-66c0-4584-8072-3ee1d7a0e023)
-The sum of the numbers from 1 to 5 is 15 abd it is obtained successfully.
+The sum of the numbers from 1 to 5 is 15 and it is obtained successfully.
 
 The next step is to convert the C code according to RISC-V tool instruction set we have seperate steps which are as follows.
 
@@ -41,6 +41,9 @@ Thus the number of instruction set is found to be 15 both theoretically and prac
 
 STEP 5:
 In the previous case we used -O1 as the optional condition to compile the code whereas now we use -Ofast conditon and the command is as follows:
+
+        riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+Now on obtaing the output of the main section we get,
 
                
 
