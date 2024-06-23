@@ -39,12 +39,13 @@ Now we can see that the address of the main section is 10184 but the quick way t
 ![WhatsApp Image 2024-06-24 at 1 43 32 AM](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/f3b985b6-4950-472b-b9b8-5db032e5ddd3)
 Thus the number of instruction set is found to be 15 both theoretically and practically.
 
-STEP 5:
+STEP 4:
 In the previous case we used -O1 as the optional condition to compile the code whereas now we use -Ofast conditon and the command is as follows:
 
         riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 Now on obtaing the output of the main section we get,
 ![WhatsApp Image 2024-06-24 at 1 53 17 AM](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/66aee74e-18db-42ff-bf17-6f653b467fda)
+Thus we can see that on changing the option condition the number of instruction set is reduced to 12 respectively.
 
 
                
