@@ -69,6 +69,11 @@ The next step is to implement and get the output for the assembly code same as w
 # TASK 3
 Task 3 is to compile the C code and find the spike simpulation and further we have to compare the   -Ofast   and   -O1 conditions seperately.
 
+STEP 1:
+![task 3la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/dfb85a3b-3546-42f4-b29b-287f49c82f00)
+
+STEP 2:
+
 
 
 
