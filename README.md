@@ -56,6 +56,10 @@ The code which I have used to implement the clock cycle divider is:
 ![clockcode](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/01443400-7e7c-4dd6-93fa-29767bd907c9)
 
 The output of this C code is:
+![clockop](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/c3a63be4-131d-417e-a2d2-a649dc335969)
+
+Now, we are implementing the code in RISC-V GCC compiler:
+
 
 
 
