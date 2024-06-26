@@ -64,6 +64,9 @@ Now, we are implementing the code in RISC-V GCC compiler:
 The next step is to implement and get the output for the assembly code same as we did in task 1.
 ![prefinal](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/43b9ea92-d6fc-45fe-a24e-63c94dc00937)
 
+![finalopt](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/8a259514-0bab-4a8d-bb8b-4415a26fa0c4)
+
+
 
 
 
