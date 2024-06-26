@@ -59,6 +59,12 @@ The output of this C code is:
 ![clockop](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/c3a63be4-131d-417e-a2d2-a649dc335969)
 
 Now, we are implementing the code in RISC-V GCC compiler:
+![risc ss](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/8a6e669b-e1fa-4634-9748-fc8ab8d7fe4d)
+
+The next step is to implement and get the output for the assembly code same as we did in task 1.
+
+
+
 
 
 
