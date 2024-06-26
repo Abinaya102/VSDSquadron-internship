@@ -68,7 +68,7 @@ The next step is to implement and get the output for the assembly code same as w
 
 # TASK 3
 Task 3 is to compile the C code and find the spike simpulation and further we have to compare the   -Ofast   and   -O1 conditions seperately.
-The entire process of task 3 id basically to debug using spike command.
+The entire process of task 3 is basically to debug using spike command.
 
 STEP 1:
 The first step is to compile the C code using "gcc clockcycledivider.c" and  "./a.out" command and compile the same code in RISC-V GCC compiler using
@@ -78,10 +78,25 @@ command and get the same output.
 ![task 3la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/dfb85a3b-3546-42f4-b29b-287f49c82f00)
 
 STEP 2:
+In this step we are opening the object dump elements of this code using
+
+    riscv64-unknown-elf-objdump -d clockcycledivider.o | less
+command as we saw earlier.
 ![task3la2](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/67558822-57e5-41b2-9c2d-81317abbdeb9)
 
 STEP 3:
+Now to debug all these object dump lines we need to open a debugger using 
+
+    spike pk -d clockcycledivider.o
+Lets say now we have to run the debugger till program counter 100b0 we are using the command
+
+    until pc 0 100b0
+where pc denotes the program counter and after this counter value the program runs manually. Then before modifing the values we are going to find the contents of out first counter value a1 using command:
+
+    reg 0 a1
+Thus the contents are displayed and we can observe that the obtained output of this command is of 64 bits denoting the 64 bit RISC-V simulation. Then on pressing enter we get the next instruction and the "lui" in each instruction is denoted as load upper immediate.
 ![task3la3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/37c5aaee-3b1f-4d43-8fee-fa390d1a34aa)
+
 
 STEP 4:
 ![task3la4](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/bd0a2a07-5c8a-453d-b2bd-79110789c218)
