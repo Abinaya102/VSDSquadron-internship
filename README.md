@@ -1,5 +1,6 @@
 # VSDSquadron-internship
 This is the VSDSquadron research internship program which is done using RISC-V development board. This board is powered by CH32VOO3F4U6 chip with 32 bit RISC-V core based tool. It includes a built-in factory-trimmed 24MHz RC oscillator, 128KHz RC oscillator and a 24MHz oscillator for varing clock requirements. It offers multiple communication protocol including US-ART, 12C and SPI for versatile connectivity. It is eqipped with 2KB SRAM for volatile data storage, 16KB flash memory and 1920B for bootloader functionalities.
+# TASK 1
 # C code to RISC-V tool
 In this section, we'll explore how C code is reprsented in the instruction set of the RISC-V tool. We'll start by testing the GCC compiler with a simple program that counts the sum of numbers from 1 to n.
 STEP 1:
@@ -46,8 +47,12 @@ In the previous case we used -O1 as the optional condition to compile the code w
 Now on obtaing the output of the main section we get,
 ![WhatsApp Image 2024-06-24 at 1 53 17 AM](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/66aee74e-18db-42ff-bf17-6f653b467fda)
 Thus we can see that on changing the option condition the number of instruction set is reduced to 12 respectively.
-* njhhlj
-* 
+
+# TASK 2
+Task 2 is to write a C program for the project "Clock cycle Divider" and compile it using RISC-V GCC
+A clock divider circuit creates a low frequency clock signals from the input clock source. The divider circuit counts input clock cycles, and drive the output clock low and then high for some of the input clock cycle.
+The code which I have used to implement the clock cycle divider is:
+
 
 
                
