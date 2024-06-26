@@ -73,6 +73,10 @@ STEP 1:
 ![task 3la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/dfb85a3b-3546-42f4-b29b-287f49c82f00)
 
 STEP 2:
+![task3la2](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/67558822-57e5-41b2-9c2d-81317abbdeb9)
+
+STEP 3:
+
 
 
 
