@@ -85,13 +85,13 @@ command as we saw earlier.
 ![task3la2](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/67558822-57e5-41b2-9c2d-81317abbdeb9)
 
 STEP 3:
-Now to debug all these object dump lines we need to open a debugger using 
+Now to debug all these object dump lines we need to open a debugger using the following command:
 
     spike pk -d clockcycledivider.o
-Lets say now we have to run the debugger till program counter 100b0 we are using the command
+Lets say now we have to run the debugger till program counter 100b0, fpr this we are using the command
 
     until pc 0 100b0
-where pc denotes the program counter and after this counter value the program runs manually. Then before modifing the values we are going to find the contents of out first counter value a1 using command:
+where pc denotes the program counter and after these counter values the program runs manually. Then before modifing the values we are going to find the contents of first counter value a1 using command:
 
     reg 0 a1
 Thus the contents are displayed and we can observe that the obtained output of this command is of 64 bits denoting the 64 bit RISC-V simulation. Then on pressing enter we get the next instruction and the "lui" in each instruction is denoted as load upper immediate.
@@ -100,6 +100,7 @@ Thus the contents are displayed and we can observe that the obtained output of t
 
 STEP 4:
 ![task3la4](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/bd0a2a07-5c8a-453d-b2bd-79110789c218)
+In this step we can see that the hexadecimal value of the stack pointer is reduced by 10
 
 
 
