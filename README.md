@@ -51,8 +51,13 @@ Thus we can see that on changing the option condition the number of instruction 
 # TASK 2
 Task 2 is to write a C program for the project "Clock cycle Divider" and compile it using RISC-V GCC
 A clock divider circuit creates a low frequency clock signals from the input clock source. The divider circuit counts input clock cycles, and drive the output clock low and then high for some of the input clock cycle.
+
 The code which I have used to implement the clock cycle divider is:
 ![clockcode](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/01443400-7e7c-4dd6-93fa-29767bd907c9)
+
+The output of this C code is:
+
+
 
 
 
