@@ -46,6 +46,8 @@ In the previous case we used -O1 as the optional condition to compile the code w
 Now on obtaing the output of the main section we get,
 ![WhatsApp Image 2024-06-24 at 1 53 17 AM](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/66aee74e-18db-42ff-bf17-6f653b467fda)
 Thus we can see that on changing the option condition the number of instruction set is reduced to 12 respectively.
+* njhhlj
+* 
 
 
                
