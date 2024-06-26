@@ -68,8 +68,13 @@ The next step is to implement and get the output for the assembly code same as w
 
 # TASK 3
 Task 3 is to compile the C code and find the spike simpulation and further we have to compare the   -Ofast   and   -O1 conditions seperately.
+The entire process of task 3 id basically to debug using spike command.
 
 STEP 1:
+The first step is to compile the C code using "gcc clockcycledivider.c" and  "./a.out" command and compile the same code in RISC-V GCC compiler using
+    
+    spike pk clockcycledivider.o
+command and get the same output.
 ![task 3la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/dfb85a3b-3546-42f4-b29b-287f49c82f00)
 
 STEP 2:
@@ -79,6 +84,8 @@ STEP 3:
 ![task3la3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/37c5aaee-3b1f-4d43-8fee-fa390d1a34aa)
 
 STEP 4:
+![task3la4](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/bd0a2a07-5c8a-453d-b2bd-79110789c218)
+
 
 
 
