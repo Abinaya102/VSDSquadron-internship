@@ -102,6 +102,100 @@ STEP 4:
 ![task3la4](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/bd0a2a07-5c8a-453d-b2bd-79110789c218)
 In this step we can see that the hexadecimal value of the stack pointer is reduced by 10
 
+# TASK 4
+# RISC-V instruction type
+
+RISC-V instructions can be categorized into several types based on their format:
+
+R-type: Register-Register operations
+I-type: Immediate operations
+S-type: Store operations
+B-type: Branch operations
+U-type: Upper immediate operations
+J-type: Jump operations
+Below are the instructions with their types and 32-bit instruction codes in the format for each type:
+
+1. ADD r6, r2, r1
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0000000 00001 00010 000 00110 0110011
+* 32-bit Pattern: 0x0020B033
+
+  
+2. SUB r7, r1, r2
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0100000 00010 00001 000 00111 0110011
+* 32-bit Pattern: 0x4020A033
+
+  
+3. AND r8, r1, r3
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0000000 00011 00001 111 01000 0110011
+* 32-bit Pattern: 0x0030F033
+
+  
+4. OR r9, r2, r5
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0000000 00101 00010 110 01001 0110011
+* 32-bit Pattern: 0x0050D033
+
+  
+5. XOR r10, r1, r4
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0000000 00100 00001 100 01010 0110011
+* 32-bit Pattern: 0x0040A833
+6. SLT r11, r2, r4
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0000000 00100 00010 010 01011 0110011
+* 32-bit Pattern: 0x0040D233
+  
+7. ADDI r12, r4, 5
+* Type: I
+* Format: imm[11:0] rs1 funct3 rd opcode
+* Binary: 000000000101 00100 000 01100 0010011
+* 32-bit Pattern: 0x00520613
+  
+8. SW r3, r1, 2
+* Type: S
+* Format: imm[11:5] rs2 rs1 funct3 imm[4:0] opcode
+* Binary: 0000000 00010 00001 010 00011 0100011
+* 32-bit Pattern: 0x0020A023
+  
+9. SRL r16, r14, r2
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0000000 00010 01110 101 10000 0110011
+* 32-bit Pattern: 0x0020F933
+  
+10. BNE r0, r1, 20
+* Type: B
+* Format: imm[12|10:5] rs2 rs1 funct3 imm[4:1|11] opcode
+* Binary: 000001 00001 00000 001 0010 1100011
+* 32-bit Pattern: 0x01406063
+  
+11. BEQ r0, r0, 15
+* Type: B
+* Format: imm[12|10:5] rs2 rs1 funct3 imm[4:1|11] opcode
+* Binary: 000000 00000 00000 000 1111 1100011
+* 32-bit Pattern: 0x00F06063
+  
+12. LW r13, r1, 2
+* Type: I
+* Format: imm[11:0] rs1 funct3 rd opcode
+* Binary: 000000000010 00001 010 01101 0000011
+* 32-bit Pattern: 0x0020A203
+  
+13. SLL r15, r1, r2
+* Type: R
+* Format: funct7 rs2 rs1 funct3 rd opcode
+* Binary: 0000000 00010 00001 001 01111 0110011
+* 32-bit Pattern: 0x0020A533
+
 
 
 
