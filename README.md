@@ -196,6 +196,9 @@ Below are the instructions with their types and 32-bit instruction codes in the 
 * Binary: 0000000 00010 00001 001 01111 0110011
 * 32-bit Pattern: 0x0020A533
 
+# TASK 5
+Task 5 is to use this RISC-V core verilog netlist and testbench for the functional simulation experiment
+
 
 
 
