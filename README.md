@@ -198,6 +198,8 @@ Below are the instructions with their types and 32-bit instruction codes in the 
 
 # TASK 5
 Task 5 is to use this RISC-V core verilog netlist and testbench for the functional simulation experiment
+![task5la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/8e79c552-00cc-442d-867d-8fce29b70594)
+
 
 
 
