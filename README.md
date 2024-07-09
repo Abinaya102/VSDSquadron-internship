@@ -201,6 +201,15 @@ Task 5 is to use this RISC-V core verilog netlist and testbench for the function
 ![task5la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/8e79c552-00cc-442d-867d-8fce29b70594)
 ![task 5 la 2](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/93a0e3e8-fa67-4fef-a4cc-878fd1f68e5b)
 ![task5la3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/d998a548-2f68-4d6a-84a3-492f292d7cae)
+![task5laadd](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/e0da8627-6f78-4823-b551-ef891e6ade6f)
+![task3ins3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/0c57f661-64a4-4667-ae95-33fe7b9a0e77)
+![task5ins4](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/08ad350d-a75f-4126-9ee8-8ea38a6c8108)
+![task5ins5](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/10d5b1c8-619a-4e95-879d-fd6f8c04adf7)
+![task5ins6](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/c63dacb4-3524-4c06-992e-bb940cdb0dcf)
+![task5ins7](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/23bd0bf0-b781-40a1-8afe-32f4dddc87f7)
+![task5ins8](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/0797d1a2-5f54-4130-9068-60742ab1121f)
+![task5ins9](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/9bffcd3e-04f9-49d4-9b51-96984968c75b)
+
 
 
 
