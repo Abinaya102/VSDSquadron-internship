@@ -248,6 +248,21 @@ OVERVIEW:
 
 A clock cycle divider using a RISC-V core processor reduces the input clock frequency by a specified division factor. The RISC-V core initializes a counter and executes instructions to increment the counter on each clock cycle. When the counter reaches the division factor, it resets to zero and toggles the output clock signal, thus generating a lower frequency output clock. This software-based approach allows easy adjustment of the division factor by modifying the counter value, providing flexibility in clock management for various applications, such as generating different clock domains, reducing power consumption, and enabling slower peripherals to interface with the core.
 
+HARDWARE COMPONENTS:
+
+ * RISC-V processor development board
+ * GPIO pins
+ * Power supply
+ * Clock source
+ * Connecting wires
+ * Programming interface
+
+SOFTWARE COMPONENTS:
+
+ * Simulation tools
+ * Programming tools
+
+The progammable code of this project is already updated in task 2.
 
 
 
