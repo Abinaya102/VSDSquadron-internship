@@ -222,26 +222,31 @@ Now a vdc file is created. We can open this using the gtkwave and observe the wa
 
       gtkwave iiitb_rv32i.vcd
 ![task 5 la 2](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/93a0e3e8-fa67-4fef-a4cc-878fd1f68e5b)
-1.ADD:
+
 ![task5la3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/d998a548-2f68-4d6a-84a3-492f292d7cae)
-2.SUB:
+1. ADD
 ![task5laadd](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/e0da8627-6f78-4823-b551-ef891e6ade6f)
-3.AND:
+2. SUB
 ![task3ins3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/0c57f661-64a4-4667-ae95-33fe7b9a0e77)
-4.OR:
+3. AND
 ![task5ins4](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/08ad350d-a75f-4126-9ee8-8ea38a6c8108)
-5.XOR:
+4. OR
 ![task5ins5](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/10d5b1c8-619a-4e95-879d-fd6f8c04adf7)
-6.XLT:
+5. XOR
 ![task5ins6](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/c63dacb4-3524-4c06-992e-bb940cdb0dcf)
-7.ADDI:
+6. BN
 ![task5ins7](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/23bd0bf0-b781-40a1-8afe-32f4dddc87f7)
-7.SW:
+7.ADDI
 ![task5ins8](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/0797d1a2-5f54-4130-9068-60742ab1121f)
-8.BNE:
+8. SW
 ![task5ins9](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/9bffcd3e-04f9-49d4-9b51-96984968c75b)
 
 # TASK-6
+Here we can see the entire overview of the project
+
+OVERVIEW:
+
+A clock cycle divider using a RISC-V core processor reduces the input clock frequency by a specified division factor. The RISC-V core initializes a counter and executes instructions to increment the counter on each clock cycle. When the counter reaches the division factor, it resets to zero and toggles the output clock signal, thus generating a lower frequency output clock. This software-based approach allows easy adjustment of the division factor by modifying the counter value, providing flexibility in clock management for various applications, such as generating different clock domains, reducing power consumption, and enabling slower peripherals to interface with the core.
 
 
 
