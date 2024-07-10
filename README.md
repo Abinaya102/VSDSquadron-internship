@@ -215,6 +215,12 @@ Since we are not building a RISC-V core in this project instead we are using a p
           cp ../rv32i/iiitb_rv32i.v .
           cp ../rv32i/iiitb_rv32i_tb.v .
 ![task5la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/8e79c552-00cc-442d-867d-8fce29b70594)
+Now the code is run through:
+      
+      iverilog -o iiitb_rv32i iiitb_rv32i.v iiitb_rv32i_tb.v./iiitb_rv32i
+Now a vdc file is created. We can open this using the gtkwave and observe the waveform using:
+
+      gtkwave iiitb_rv32i.vcd
 ![task 5 la 2](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/93a0e3e8-fa67-4fef-a4cc-878fd1f68e5b)
 ![task5la3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/d998a548-2f68-4d6a-84a3-492f292d7cae)
 ![task5laadd](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/e0da8627-6f78-4823-b551-ef891e6ade6f)
