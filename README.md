@@ -198,6 +198,13 @@ Below are the instructions with their types and 32-bit instruction codes in the 
 
 # TASK 5
 Task 5 is to use this RISC-V core verilog netlist and testbench for the functional simulation experiment
+Since we are not building a RISC-V core in this project instead we are using a prebuilt micro architecture and test bench. Let us start this by installing the tools:
+ * iverilog
+ * gtkwave
+using the command:
+
+               sudo apt update
+               sudo apt install iverilog gtkwave
 ![task5la1](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/8e79c552-00cc-442d-867d-8fce29b70594)
 ![task 5 la 2](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/93a0e3e8-fa67-4fef-a4cc-878fd1f68e5b)
 ![task5la3](https://github.com/Abinaya102/VSDSquadron-internship/assets/173627993/d998a548-2f68-4d6a-84a3-492f292d7cae)
